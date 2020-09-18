@@ -1,0 +1,17 @@
+for beer in range(99, 0, -1):
+	if beer == 1:
+		bottles="bottle"
+	else:
+		bottles="bottles"
+	print(str(beer) + " "+bottles+" of beer on the wall, "+str(beer)+" "+bottles+" of beer")
+	if beer-1 == 1:
+		bottles="bottle"
+	else:
+		bottles="bottles"
+	print(" Take one down, pass it around, "+str(beer-1)+" "+bottles+" of beer on the wall...")
+	bottles="bottles"
+
+
+print(" No more bottles of beer on the wall, no more bottles of beer")
+print(" Go to the store and buy some more, 99 bottles of beer on the wall...")
+print("")
